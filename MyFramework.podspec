@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = "XcframeworkTest"
-  s.version          = "1.0.2"
+  s.name             = "MyFramework"
+  s.version          = "1.0.3"
   s.summary          = "Test"
   s.homepage         = "https://github.com/hungdaUBI/XcframeworkTest"
   s.license          = 'MIT'
@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.swift_version = "4.2"
   s.ios.deployment_target  = '12.0'
-  s.vendored_frameworks = 'XcframeworkTest.xcframework'
+  s.vendored_frameworks = 'MyFramework.xcframework'
 end
