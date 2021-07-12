@@ -6,9 +6,8 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Honda" => "hungdaUBI@ubi.com.tw" }
   s.source           = { :git => "https://github.com/hungdaUBI/XcframeworkTest.git", :tag => s.version }
-  s.vendored_frameworks = "MyFramework.xcframework"
   s.platform = :ios
   s.swift_version = "4.2"
   s.ios.deployment_target  = '12.0'
-
+  s.vendored_frameworks = 'MyFramework.xcframework'
 end
