@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MyFramework"
-  s.version          = "1.0.6"
+  s.version          = "1.0.7"
   s.summary          = "Test"
   s.homepage         = "https://github.com/hungdaUBI/XcframeworkTest"
   s.license          = 'MIT'
