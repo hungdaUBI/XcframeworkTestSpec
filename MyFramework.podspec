@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MyFramework"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "Test"
   s.homepage         = "https://github.com/hungdaUBI/XcframeworkTest"
   s.license          = 'MIT'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :http => "http://127.0.0.1:1234/MyFramework.xcframework.zip" }
   s.platform         = :ios
   s.swift_version    = "4.2"
-  s.ios.deployment_target  = '12.0'
+  s.ios.deployment_target  = '13.0'
   s.vendored_frameworks = "MyFramework.xcframework"
   s.dependency 'Alamofire', '~> 5.4.3' 
 end
